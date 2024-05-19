@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'NorseBold';
+    src: url('./assets/Norse-Bold.otf') format("opentype");
+}
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --green:#596D48;
+    --grey: #E5E7EB;
+    font-family: "Roboto", sans-serif;
+}
+
+.page{
+    display:flex;
+}
+
+.side{
+    background-image:url("./assets/background-leaf.avif");
+    min-width:36vw;
+    height:100vh;
+    background-size: contain;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.47);
+    padding:10px;
+    margin-top:25vh;
+}
+
+.header-image{
+    height: 130px;
+}
+
+h1{
+    font-family: 'NorseBold';
+    color:white;
+    font-size:90px;
+    margin:0;
+    padding-top:15px;
+}
+
+
+main{
+    background-color: rgba(128, 128, 128, 0.102);
+}
+
+.cta{
+    width:auto;
+    padding: 15vh 150px 60px 50px;
+}
+
+.cta > p{
+    font-family: "Roboto", sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.786);
+}
+
+
+.card{
+    padding:15px 50px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.162);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:30vh;
+    margin-top: 20px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type='text'] {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 80%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color:rgb(73, 72, 73);
+}
+
+button{
+    padding:12px 50px;
+    font-size: large;
+    color:white;
+    background-color: var(--green);
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.192);
+    width: 20vw;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 150px 60px 50px;
+}
+
+
+.citation{
+    text-align: center;
+    color:white;
+    margin-top:51vh;
+}
